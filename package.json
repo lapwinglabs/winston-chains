@@ -1,0 +1,28 @@
+{
+  "name": "winston-chains",
+  "version": "0.0.1",
+  "description": "Chain winston loggers for cascading messages into multiple transport groups.",
+  "main": "./lib/winston-chains.js",
+  "scripts": {
+    "test": "node ./test/winston-chains-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lapwinglabs/winston-chains.git"
+  },
+  "keywords": [
+    "winston",
+    "logging",
+    "tools"
+  ],
+  "author": "Brian Dentino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lapwinglabs/winston-chains/issues"
+  },
+  "homepage": "https://github.com/lapwinglabs/winston-chains",
+  "devDependencies": {
+    "vows": "^0.8.1",
+    "winston": "^0.8.3"
+  }
+}
